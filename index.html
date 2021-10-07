@@ -20,6 +20,16 @@
       :root {
         --r-heading-text-transform: none;
       }
+
+      #vision-section h2,
+      #vision-section div {
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.95);
+      }
+
+      #vision-section {
+        /* Offset off the Shuterstock text */
+        padding-bottom: 10rem;
+      }
     </style>
   </head>
   <body>
@@ -31,13 +41,16 @@
           <div>Étienne Robert</div>
           <div>etiennerobert33@gmail.com</div>
         </section>
-        <section>
+        <section
+          id="vision-section"
+          data-background-video="resources/stock-footage-gps-navigation-localization-seamless-loop-k-ultra-hd.webm"
+          data-background-video-loop
+        >
           <h2>A GPS for your projects</h2>
           <div>
             What if planning and executing your projects was as simple as using
             a GPS?
           </div>
-          <img style="width: 75%" src="images/gps.webp" />
         </section>
         <section>
           <h1>Market</h1>
